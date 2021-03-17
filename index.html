@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>A G</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,    400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <!--== bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!--== default-theme -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--== fontawesome -->
+    <link  rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../AG/css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="header_top">
+    <div class="container-fluid">
+        <div class="row align-items-center py-3">
+            <div class="col-lg-9 col-md-6 col-sm-12  d-flex">
+                <div class="header_top_left col-12">
+                    <ul class="header-social col-12  list-inline d-flex flex-wrap  m-auto">
+                        <li class="mx-2"><a   href="tel:123-456-7890" ><i class="fas fa-phone "></i>+370 675 57342</a></li>
+                        <li class="mx-2"><a   href="tel:123-456-7890" ><i class="fab fa-viber"> </i> +370 671 53387(Viber, WhatsApp)</a></li>
+                        <li class="mx-2"><a  href="mailto:someone@yoursite.com"><i class="far fa-envelope"> </i> sales@ameriogroup.lt</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12  col-sm-4 m-auto">
+                <div class="header_top_right text-md-right text-center">
+                    <div class="social-icons  social-hover ">
+                        <ul class="list-inline d-flex justify-content-end m-0">
+                            <li class="social-facebook "><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="social-twitter px-3"><a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="social-gplus"><a target="_blank" href="#"><i class="fab fa-google-plus-g"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-3 d-flex flex-wrap justify-content-between">
+                <div class="col-md-6 col-12 text-md-left text-center">
+                    <a href="#">
+                        <div class="header_logo">
+                            <img src="assets/images/logo.png" width="100" height="100" alt="">
+                            <div class="company_name d-inline-block m-auto">
+                                <h3 >Company Name</h3>
+                            </div>
+                        </div>
+                    </a>,
+                </div>
+                <div class="price col-md-6 col-12 text-md-right text-center">
+                    <h4>If You want buy my product click heare</h4>
+                    <!-- Button trigger modal -->
+                   <div class="col-12 text-md-right text-center">
+                       <button type="button" class="btn modal_btn " data-toggle="modal" data-target="#exampleModal">
+                           Ask for Price List
+                       </button>
+                   </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ask for Price List</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control "id="email_price" placeholder="Email Address" name="Email" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="number" class="form-control " id="tel_price" placeholder="Tel" name="tel" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control " id="cname_price" placeholder="Company Name" name="cname" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control " id="site_price" placeholder="Site Url" name="site">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label for="country_price">Select Country:</label>
+                                                    <select name="country" id="country_price" class="form-control ">
+                                                        <option value="">Armenia</option>
+                                                        <option value="">Latvia</option>
+                                                        <option value="">Lithuania</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <label for="text_area">Text Area:</label>
+                                                    <textarea name="" id="text_area" class="form-control " rows="3"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn save_price  btn-block text-uppercase">Save</button>
+
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Menu-->
+<nav id="navbar" class="navbar navbar1 navbar-expand-lg navbar-fixed-top navbar-dark  px-5 py-lg-0">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav" >
+        <ul class="navbar-nav nav  text-center col-12 d-lg-flex justify-content-between">
+            <li class="nav-item p-lg-2">
+                <a class="nav-link" href="#about"><i class="fas fa-user"></i>About Us </a>
+            </li>
+<!--            <li class="nav-item p-lg-2">
+                <a class="nav-link" href="#price"><i class="fas fa-rupee-sign"></i>Ask for Price List</a>
+            </li>-->
+            <li class="nav-item p-lg-2">
+                <a class="nav-link" href="#download"><i class="fas fa-download"></i>Download  Catalog</a>
+            </li>
+            <li class="nav-item p-lg-2">
+                <a class="nav-link" href="#product"><i class="fab fa-product-hunt"></i>View Product</a>
+            </li>
+            <li class="nav-item  p-lg-2">
+                <a class="nav-link" href="#partner"><i class="fas fa-handshake"></i>Become a Partnior</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<div class="fire_top ">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-12 px-0 ">
+                <div  style="padding:56.25% 0 0 0;position:relative; background-color: #000000" >
+                    <iframe  src="https://player.vimeo.com/video/472568077?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1&background=1" style="border:0;position:absolute; top:0;left:0;width:100%;height:100%;" alt="flames fire extinguisher servicing company">
+                        <img src="assets/images/logo.png" alt="">
+                    </iframe>
+                </div>
+                <div class="product_logo col-12" style="position: absolute; top: 30%">
+                   <div class="container">
+                       <div class="text">
+                           <h3 style="color: white">Some Text</h3>
+                       </div>
+                       <div class="fire_top_images d-none d-md-block">
+                           <img src="assets/images/Images/slide_1.png" alt="" width="130" >
+                           <img src="assets/images/Images/slide_3.png" alt="" width="130" >
+
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="about py-5" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center py-4">
+                <div class="section_header_icon">
+                    <img src="assets/images/firwatch-fire-icon-orange.png" alt="">
+                </div>
+                <div class="section_header">
+                    <h3 >About Us</h3>
+                </div>
+                <p>We are specializing on out-put of Ceramic fire-proof Crucibles Offering product which manufacture is carried out on its own Exclusive technology. Our product provides high-quality and safe molding; exactly this fact is valued and acknowledged by Our Partners. AG Group Has been specialized on out-put of High Quality Ceramic fire-proof products since 2000Our Product started to be in great Demand in Dubai and Russia in a very short time .In 2001 the specialists of Our Company developed a new technology which was named "SPECIAL CERAMIC”. Since 2003 it has started serial output under this name. Our Company uses only clean oxides in out- put off its product , making it possible to get high quality products , High quality and low prices mark out our Product in the market. Since 2014 we have started to open new markets for Our product in Europe , the majority of firms engaged in jewelry business actively using Our Product , Well-Known companies such as shop of specialized jewelry equipments "Onix " , Jewelry factory"Navur-J " Dental Centre " Eurodent", a shop of specialized jewelry equipments "Sapphire " , PAT Granit , Arex-Pol , Misara , Advantage , Rodent , Santimas etc. Are among our partners.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------------
+    Product End
+-------------------------->
+<section class="product py-5" id="product">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center py-4">
+                <div class="section_header_icon">
+                    <img src="assets/images/firwatch-fire-icon-orange.png" alt="">
+                </div>
+                <div class="section_header">
+                    <h3 >Product</h3>
+                    <p class="product_header_text">Some text that refers to products</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="grid d-flex justify-content-between flex-wrap">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <figure class="effect-zoe">
+                        <img src="assets/images/Phoniex/7_max.jpg" class="img-fluid" alt="img25"/>
+                        <figcaption class="col-12 m-auto d-flex justify-content-center  ">
+                            <a href="#">View Product</a>
+                        </figcaption>
+                        <div class="bounceInUp p-5" >
+                            <h3  class="product_name">Ceramic crucibles thin ... </h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <figure class="effect-zoe">
+                        <img src="assets/images/Phoniex/9_max.jpg" class="img-fluid" alt="img25"/>
+                        <figcaption class="col-12 m-auto d-flex justify-content-center  ">
+                            <a href="#">View Product</a>
+                        </figcaption>
+                        <div class="bounceInUp p-5" >
+                            <h3  class="product_name">Ceramic crucibles thick .... </h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <figure class="effect-zoe">
+                        <img src="assets/images/Phoniex/5_max.jpg" class="img-fluid" alt="img25"/>
+                        <figcaption class="col-12 m-auto d-flex justify-content-center  ">
+                            <a href="#">View Product</a>
+                        </figcaption>
+                        <div class="bounceInUp p-5" >
+                            <h3  class="product_name">Glass from ceramic </h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <figure class="effect-zoe">
+                        <img src="assets/images/Phoniex/6_max.jpg" class="img-fluid" alt="img25"/>
+                        <figcaption class="col-12 m-auto d-flex justify-content-center  ">
+                            <a href="#">View Product</a>
+                        </figcaption>
+                        <div class="bounceInUp p-5" >
+                            <h3  class="product_name">Ceramic board for soldering from 80mm-200*100mm</h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <figure class="effect-zoe">
+                        <img src="assets/images/Phoniex/2_max.jpg" class="img-fluid" alt="img25"/>
+                        <figcaption class="col-12 m-auto d-flex justify-content-center  ">
+                            <a href="#">View Product</a>
+                        </figcaption>
+                        <div class="bounceInUp p-5" >
+                            <h3  class="product_name">Universal Holder for all size of crucibles 320mm</h3>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <figure class="effect-zoe">
+                        <img src="assets/images/Phoniex/2_max.jpg" class="img-fluid" alt="img25"/>
+                        <figcaption class="col-12 m-auto d-flex justify-content-center  ">
+                            <a href="#">View Product</a>
+                        </figcaption>
+                        <div class="bounceInUp p-5" >
+                            <h3  class="product_name">Testing Stones</h3>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------------
+    Product End
+-------------------------->
+<!--------------------------
+    Download
+-------------------------->
+<section class="download py-5" id="download">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center py-4">
+                <div class="section_header_icon">
+                    <img src="assets/images/firwatch-fire-icon-white.webp" alt="">
+                </div>
+                <div class="section_header">
+                    <h3 >Download Catalog</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex flex-column align-items-center pt-3">
+                <div class="col-lg-3 col-md-6 col-8 text-center mt-3">
+                    <img src="assets/images/catalog_downland.jpg" class="img-fluid" alt="img">
+
+                </div>
+                <br>
+                <div class="mt-3">
+                    <a href="assets/file/Catalogue.pdf" class="btn btn-dark downland_button py-3 px-4 mt-3" download><span><i class="fa fa-download"></i>  Download</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------------
+    Download End
+-------------------------->
+<!--------------------------
+    Partner
+-------------------------->
+<section class="partner py-5" id="partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <!--<div class="section_header_icon">
+                    <img src="assets/images/firwatch-fire-icon-orange.png" alt="">
+                </div>-->
+                <div class="section_header">
+                    <h3 >Become a Partner</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control "id="email" placeholder="Email Address" name="Email" required>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="number" class="form-control " id="tel" placeholder="Tel" name="tel" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control " id="cname" placeholder="Company Name" name="cname" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control " id="site" placeholder="Site Url" name="site">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="country">Select Country:</label>
+                                <select name="country" id="country" class="form-control ">
+                                    <option value="">Armenia</option>
+                                    <option value="">Latvia</option>
+                                    <option value="">Lithuania</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="site">Text Area:</label>
+                                <textarea name="" id="" class="form-control " rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 mb-3">
+                            <button type="button" class="btn  btn-block text-uppercase">Save</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------------
+    Partner End
+-------------------------->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo text-center">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" width="50" class="img-fluid" alt="logo">
+                            </a>
+                        </div>
+                        <div class="footer-text">
+                            <p>We are specializing on out-put of Ceramic fire-proof Crucibles Offering product. AG Group Has been specialized on out-put of High Quality Ceramic fire-proof products since 2000</p>
+                        </div>
+                    </div>
+                    <div class="footer_info">
+                        <div class="single-cta ">
+                            <i class="fab fa-viber"></i>
+                            <div class="cta-text">
+                                <h4>Viber</h4>
+                                <a   href="tel:370 671 53387" ><span>+370 671 53387 (Viber, WhatsApp)</span></a>
+
+                            </div>
+                        </div>
+                        <div class="single-cta mt-3">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <a   href="+370 675 57342" ><span>+370 675 57342 (lt)</span></a>
+                            </div>
+                        </div>
+                        <div class="single-cta mt-3">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <a   href="sales@ameriogroup.lt" ><span>sales@ameriogroup.lt</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 m-auto">
+                    <div class="footer-widget ">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+
+                        <ul class="d-flex flex-column p-0">
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="" data-toggle="modal" data-target="#exampleModal">Ask for Price List</a></li>
+                            <li><a href="#product">View Product</a></li>
+                            <li><a href="#download">Download Catalog</a></li>
+                            <li><a href="#partner">Partner</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 m-auto">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Social Link</h3>
+                        </div>
+                        <div class="footer-social-icon">
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-4 col-12 text-center text-lg-left m-auto">
+                    <div class="copyright-text ">
+                        <p>Copyright &copy; 2201, All Right Reserved </p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12 text-lg-right text-center">
+                    <div class="footer-menu">
+                        <ul class="m-auto">
+                            <li class="pt-md-0 pt-2"><a href=""><img src="assets/images/card/paypal.webp" alt=""></a></li>
+                            <li class="pt-md-0 pt-2"><a href=""><img src="assets/images/card/master.webp" alt=""></a></li>
+                            <li class="pt-md-0 pt-2"><a href=""><img src="assets/images/card/seb-bankas.webp" alt=""></a></li>
+                            <li class="pt-md-0 pt-2"><a href=""><img src="assets/images/card/visa.webp" alt=""></a></li>
+                            <li class="pt-md-0 pt-2"><a href=""><img src="assets/images/card/paysera.webp" alt=""></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script  src="assets/js/script.js"></script>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>
