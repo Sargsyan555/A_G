@@ -115,7 +115,9 @@ a, button, input { outline: medium none !important; color: #2575fc; }
         background: #333;
     }
 }
-
+.modal form label{
+    color: black;
+}
 /* ------------------------
     About
 ------------------------*/
@@ -265,7 +267,6 @@ figure.effect-zoe:hover .bounceInUp {
 }
 
 body {
-    color: #fff;
     font-weight: 400;
     font-size: 1em;
     font-family: "Raleway", Arial, sans-serif;
