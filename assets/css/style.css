@@ -412,3 +412,11 @@ input, select, textarea {
 .google-bg{
     background: #DD4B39;
 }
+/*Scroll to Top*/
+.back-to-top {
+    background-color: #E09E25;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}

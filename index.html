@@ -19,9 +19,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--== fontawesome -->
     <link  rel="stylesheet" href="assets/css/fontawesome-all.css">
-    <link rel="stylesheet" href="../AG/css/style.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body >
 <div class="header_top">
     <div class="container-fluid">
         <div class="row align-items-center py-3">
@@ -151,17 +150,12 @@
             <li class="nav-item p-lg-2">
                 <a class="nav-link" href="#about"><i class="fas fa-user"></i>About Us </a>
             </li>
-<!--            <li class="nav-item p-lg-2">
-                <a class="nav-link" href="#price"><i class="fas fa-rupee-sign"></i>Ask for Price List</a>
-            </li>-->
+            </li>
+
             <li class="nav-item p-lg-2">
                 <a class="nav-link" href="#download"><i class="fas fa-download"></i>Download  Catalog</a>
-            </li>
-            <li class="nav-item p-lg-2">
-                <a class="nav-link" href="#product"><i class="fab fa-product-hunt"></i>View Product</a>
-            </li>
             <li class="nav-item  p-lg-2">
-                <a class="nav-link" href="#partner"><i class="fas fa-handshake"></i>Become a Partnior</a>
+                <a class="nav-link" href="#partner"><i class="fas fa-handshake"></i>Become a Partner</a>
             </li>
         </ul>
     </div>
@@ -229,9 +223,9 @@
                     <figure class="effect-zoe">
                         <img src="assets/images/Phoniex/7_max.jpg" class="img-fluid" alt="img25"/>
                         <figcaption class="col-12 m-auto d-flex justify-content-center  ">
-                            <a href="#">View Product</a>
+                            <a href="product.html">View Product</a>
                         </figcaption>
-                        <div class="bounceInUp p-5" >
+                        <div class="bounceInUp p-5 text-center" >
                             <h3  class="product_name">Ceramic crucibles thin ... </h3>
                         </div>
                     </figure>
@@ -240,9 +234,9 @@
                     <figure class="effect-zoe">
                         <img src="assets/images/Phoniex/9_max.jpg" class="img-fluid" alt="img25"/>
                         <figcaption class="col-12 m-auto d-flex justify-content-center  ">
-                            <a href="#">View Product</a>
+                            <a href="product.html">View Product</a>
                         </figcaption>
-                        <div class="bounceInUp p-5" >
+                        <div class="bounceInUp p-5 text-center" >
                             <h3  class="product_name">Ceramic crucibles thick .... </h3>
                         </div>
                     </figure>
@@ -251,10 +245,10 @@
                     <figure class="effect-zoe">
                         <img src="assets/images/Phoniex/5_max.jpg" class="img-fluid" alt="img25"/>
                         <figcaption class="col-12 m-auto d-flex justify-content-center  ">
-                            <a href="#">View Product</a>
+                            <a href="product.html">View Product</a>
                         </figcaption>
-                        <div class="bounceInUp p-5" >
-                            <h3  class="product_name">Glass from ceramic </h3>
+                        <div class="bounceInUp p-5 text-center" >
+                            <h3  class="product_name ">Glass from ceramic </h3>
                         </div>
                     </figure>
                 </div>
@@ -262,9 +256,9 @@
                     <figure class="effect-zoe">
                         <img src="assets/images/Phoniex/6_max.jpg" class="img-fluid" alt="img25"/>
                         <figcaption class="col-12 m-auto d-flex justify-content-center  ">
-                            <a href="#">View Product</a>
+                            <a href="product.html">View Product</a>
                         </figcaption>
-                        <div class="bounceInUp p-5" >
+                        <div class="bounceInUp p-5 text-center" >
                             <h3  class="product_name">Ceramic board for soldering from 80mm-200*100mm</h3>
                         </div>
                     </figure>
@@ -273,9 +267,9 @@
                     <figure class="effect-zoe">
                         <img src="assets/images/Phoniex/2_max.jpg" class="img-fluid" alt="img25"/>
                         <figcaption class="col-12 m-auto d-flex justify-content-center  ">
-                            <a href="#">View Product</a>
+                            <a href="product.html">View Product</a>
                         </figcaption>
-                        <div class="bounceInUp p-5" >
+                        <div class="bounceInUp p-5 text-center" >
                             <h3  class="product_name">Universal Holder for all size of crucibles 320mm</h3>
                         </div>
                     </figure>
@@ -284,9 +278,9 @@
                     <figure class="effect-zoe">
                         <img src="assets/images/Phoniex/2_max.jpg" class="img-fluid" alt="img25"/>
                         <figcaption class="col-12 m-auto d-flex justify-content-center  ">
-                            <a href="#">View Product</a>
+                            <a href="product.html">View Product</a>
                         </figcaption>
-                        <div class="bounceInUp p-5" >
+                        <div class="bounceInUp p-5 text-center" >
                             <h3  class="product_name">Testing Stones</h3>
                         </div>
                     </figure>
@@ -496,23 +490,15 @@
         </div>
     </div>
 </footer>
+<!--Scroll to top-->
+<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-angle-up"></i></a>
+
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script  src="assets/js/script.js"></script>
 
 <script>
-    window.onscroll = function() {myFunction()};
 
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
 </script>
 
 </body>
