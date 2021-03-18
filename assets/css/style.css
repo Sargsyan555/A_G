@@ -110,6 +110,9 @@ a, button, input { outline: medium none !important; color: #2575fc; }
 .header_logo h3{
     color: #373435;
 }
+.header_logo h3:hover{
+    color: #304872;
+}
 .product_logo{
     position: absolute;
     top: 20%
