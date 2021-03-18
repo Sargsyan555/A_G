@@ -130,7 +130,7 @@ a, button, input { outline: medium none !important; color: #2575fc; }
 }
 .fire_top_images img:hover{
     transform: rotateY(6.142rad);
-    transition: 3s;
+    transition: 2s;
 }
 /* ------------------------
     Navbar
