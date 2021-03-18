@@ -18,10 +18,17 @@ a, button, input { outline: medium none !important; color: #2575fc; }
     Header Top
 ------------------------*/
 .header_area .header_logo h3{
-    font-size: 60px;
+    font-size: 25px;
     font-weight: 700;
     font-family: "Roboto" , sans-serif;
     color: #FF7F00;
+
+}
+.header_area .header_logo h3 span{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Roboto" , sans-serif;
+    color: #304872;
 
 }
 
@@ -107,12 +114,7 @@ a, button, input { outline: medium none !important; color: #2575fc; }
 .header_social_link ul  li a  i{
     color: #FF7F00;
 }
-.header_logo h3{
-    color: #373435;
-}
-.header_logo h3:hover{
-    color: #304872;
-}
+
 .product_logo{
     position: absolute;
     top: 20%
@@ -388,7 +390,7 @@ background-color: #FF7F00;
     background-color: black;
     color: white;
 }
-a :hover span{
+.download a :hover span{
     color: white!important;
 }
 
