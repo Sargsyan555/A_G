@@ -10,6 +10,10 @@ a, button, input { outline: medium none !important; color: #2575fc; }
 *::-moz-selection { background: #2575fc; color: #fff; text-shadow: none; }
 ::-moz-selection { background: #2575fc; color: #fff; text-shadow: none; }
 
+*{
+    padding: 0;
+    margin: 0;
+}
 /* ------------------------
     Header Top
 ------------------------*/
