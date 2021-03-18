@@ -39,11 +39,17 @@ a, button, input { outline: medium none !important; color: #2575fc; }
     font-style: normal;
     line-height: 27px;
 }
-.viber span{
+.viber p{
     font-family: Roboto,sans-serif;
-    font-size: 16px;
     color: #000000;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    }
+.viber p :hover{
+    color: #FF7F00;
+
 }
 .viber i{
     color: #FF7F00;
@@ -515,7 +521,7 @@ input, select, textarea {
     margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-    color: #ff5e14;
+    color: #FF7F00;
 }
 .footer-widget ul li a {
     color: #C2C2C2;
@@ -586,5 +592,5 @@ input, select, textarea {
 Product
 --------------------*/
 .product_section{
-ba
+
 }
